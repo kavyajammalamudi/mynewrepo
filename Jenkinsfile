@@ -22,7 +22,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python3 methods.py'
-                sh 'python3 pandas.py'
+                sh 'python3 pand.py'
             }
         }
     }
