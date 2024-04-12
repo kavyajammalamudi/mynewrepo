@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Install Dependencies') {
             steps {
-                sh 'sudo pip3 install -r requirements.txt' // Install dependencies from requirements.txt
+                sh 'pip3 install -r requirements.txt' // Install dependencies from requirements.txt
             }
         }
 
